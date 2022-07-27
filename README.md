@@ -1,5 +1,5 @@
 <p align="center">
-<img src="/Users/tjphippen/spiral/resources/images/spiral.svg" alt="Spiral" width="200" style="padding: 1em; background: #ff009b; border-radius: 50px;" />
+<img src="./resources/images/spiral.svg" alt="Spiral" width="200" style="padding: 1em; background: #ff009b; border-radius: 50px;" />
 </p>
 
 <p align="center">
