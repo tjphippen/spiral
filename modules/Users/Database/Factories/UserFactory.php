@@ -1,9 +1,9 @@
 <?php
 
-namespace Database\Factories;
+namespace Modules\Users\Database\Factories;
 
 use App\Models\Team;
-use App\Models\User;
+use Modules\Users\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 use Laravel\Jetstream\Features;

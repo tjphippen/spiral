@@ -28,7 +28,10 @@ Spiral SMS is a self-hosted community management application that combines an el
 #### Added
 - Added Modules ([#43416](https://github.com/laravel/framework/pull/43416))
 - Added Users Module ([#43416](https://github.com/laravel/framework/pull/43416))
-- Added Profile Module ([#43416](https://github.com/laravel/framework/pull/43416))
+
+
+## TODO:
+- Added Profiles Module ([#43416](https://github.com/laravel/framework/pull/43416))
 - Added Laravel Cashier with Stripe ([#43416](https://github.com/laravel/framework/pull/43416))
 - Added Payments Module ([#43416](https://github.com/laravel/framework/pull/43416))
 
