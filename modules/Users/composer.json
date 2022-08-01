@@ -1,0 +1,23 @@
+{
+    "name": "tjphippen/spiral-users",
+    "description": "",
+    "authors": [
+        {
+            "name": "TJ Phippen",
+            "email": "dev@tjphippen.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Users\\": ""
+        }
+    }
+}
