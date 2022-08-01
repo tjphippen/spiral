@@ -1,7 +1,7 @@
 # For more information: https://laravel.com/docs/sail
 version: '3'
 services:
-    laravel.test:
+    laravel:
         build:
             context: ./docker/8.1
             dockerfile: Dockerfile
@@ -27,6 +27,7 @@ services:
             - redis
             - meilisearch
             - selenium
+            - adminer
     mysql:
         image: 'mysql/mysql-server:8.0'
         ports:
@@ -82,6 +83,12 @@ services:
         image: 'selenium/standalone-chrome'
         volumes:
             - '/dev/shm:/dev/shm'
+        networks:
+            - sail
+    adminer:
+        image: 'adminer:latest'
+        ports:
+            - 8080:8080
         networks:
             - sail
     stripe-cli:

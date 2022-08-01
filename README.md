@@ -1,6 +1,4 @@
-<p align="center">
-<img src="./resources/images/spiral.svg" alt="Spiral" width="200" style="padding: 1em; background: #ff009b; border-radius: 50px;" />
-</p>
+<p align="center"><img src="./resources/images/spiral.svg" alt="Spiral" width="200" /></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -11,7 +9,7 @@
 
 ### About Spiral
 
-Spiral SMS is a self-hosted venue/community management application that combines an elegant easy to use UI with advanced & extendable tools/features for event booking, ticketing, user memberships & organization administration.
+Spiral SMS is a self-hosted community management application that combines an elegant easy to use UI with advanced extendable tools/features for event ticketing, memberships & organization administration. For Team Snail! :sparkling_heart:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
