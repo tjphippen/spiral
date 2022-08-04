@@ -2,8 +2,8 @@
 
 namespace Modules\Users\Models;
 
+use Silber\Bouncer\Database\HasRolesAndAbilities;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Cashier\Billable;
@@ -14,6 +14,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
+    use HasRolesAndAbilities;
     use Billable;
     use HasApiTokens;
     use HasFactory;
@@ -61,8 +62,8 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
-//    protected static function newFactory()
-//    {
-//        return \Modules\Users\Database\factories\UserFactory::new();
-//    }
+    protected static function newFactory()
+    {
+        return \Modules\Users\Database\factories\UserFactory::new();
+    }
 }
